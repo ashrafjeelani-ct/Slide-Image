@@ -7,6 +7,7 @@ window.addEventListener('load', () => {
   start();
 });
 const start = () => {
+  // first
   element[count].classList.add('active');
   element[count].classList.add('start');
   main_image.src = element[count].childNodes[1].src;
